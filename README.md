@@ -168,14 +168,10 @@ A Telegram Bot API é gratuita para o fluxo de notificações deste projeto. Nã
 
 A API da Himalayas exige que a fonte seja identificada e que o link de candidatura (`applicationLink`) seja preservado. As mensagens incluem o link da vaga e a indicação da Himalayas como fonte. Consulte os termos oficiais antes de ampliar ou publicar o projeto: https://himalayas.app/api
 
-## Demonstração sugerida
 
-1. Executar `python -m src.main` e mostrar a consulta HTTP.
-2. Mostrar os campos JSON convertidos para o formato interno.
-3. Executar novamente e demonstrar que o SQLite bloqueia duplicatas.
-4. Mostrar as vagas pendentes no banco antes de configurar o bot.
-5. Configurar o Telegram e demonstrar o recebimento de uma vaga.
-6. Mostrar o agendador e o intervalo configurado.
+## Demonstração
+
+![Demonstração do Job Monitor](./jobmonitor.gif)
 
 ## Próximas melhorias
 
